@@ -1,5 +1,10 @@
 package com.example.swipequiz
 
+/**
+ * Represents a question.
+ * @property name - The question it self.
+ * @property answer - The answer on the question.
+ */
 data class Question(
     var name: String,
     var answer: Boolean
